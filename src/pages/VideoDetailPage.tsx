@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronLeft } from 'lucide-react';
@@ -7,6 +6,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { videos, recipes } from '@/data/mockData';
 import RecipeCard from '@/components/recipes/RecipeCard';
+import VideoCard from '@/components/videos/VideoCard';
 
 const VideoDetailPage = () => {
   const { id } = useParams<{ id: string }>();

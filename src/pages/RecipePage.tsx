@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import RecipeCard from '@/components/recipes/RecipeCard';
 import { recipes, videos } from '@/data/mockData';
 
 const RecipePage = () => {
